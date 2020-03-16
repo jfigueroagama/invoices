@@ -24,7 +24,7 @@
               <tr>
                 <td><%= invoice.company %></td>
                 <td><%= invoice.contragent %></td>
-                <td><%= invoice.currency %></td>
+                <td><%= invoice.amount %> <%= invoice.currency %></td>
                 <td><%= invoice.date %> <%= invoice.amount %></td>
                 <td><%= link_to 'Show', invoice %></td>
                 <td><%= link_to 'Edit', edit_invoice_path(invoice) %></td>
